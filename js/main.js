@@ -32,28 +32,7 @@
     revealEls.forEach(function (el) { el.classList.add("visible"); });
   }
 
-  /* Contact form:
-     The form works out of the box by opening the visitor's e-mail client
-     (mailto fallback). For a hosted form backend, create a free form at
-     e.g. https://formspree.io, put the endpoint in the form's `action`
-     attribute and remove the `data-mailto` attribute — nothing else needed. */
-  var form = document.querySelector("form[data-mailto]");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var get = function (name) {
-        var el = form.querySelector('[name="' + name + '"]');
-        return el ? el.value.trim() : "";
-      };
-      var subject = get("subject") || "Message from nikhilunarkant.com";
-      var body =
-        "Name: " + get("first_name") + " " + get("last_name") + "\n" +
-        "Email: " + get("email") + "\n\n" +
-        get("message");
-      window.location.href =
-        "mailto:" + form.getAttribute("data-mailto") +
-        "?subject=" + encodeURIComponent(subject) +
-        "&body=" + encodeURIComponent(body);
-    });
-  }
+  /* The contact form posts directly to FormSubmit.co (see contact.html).
+     No JavaScript is needed to send it — the browser submits the form and
+     FormSubmit redirects to thanks.html on success. */
 })();

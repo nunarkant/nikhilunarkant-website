@@ -66,19 +66,30 @@
           </ul>
         </div>
         <div class="reveal">
-          <!-- To use a hosted form backend instead of the visitor's e-mail client:
-               create a form at https://formspree.io (or similar), set its endpoint
-               as the `action` below and remove the `data-mailto` attribute. -->
-          <form class="form-card" action="#" method="post" data-mailto="me@nikhilunarkant.com">
+          <!-- Messages are delivered by FormSubmit.co (no backend needed).
+               First submission triggers a one-time confirmation e-mail to
+               me@nikhilunarkant.com; click the link once and all future
+               messages arrive in the inbox. To change the recipient, edit the
+               address in the `action` below. -->
+          <form class="form-card" action="https://formsubmit.co/me@nikhilunarkant.com" method="POST">
             <h3>Send me a message</h3>
+
+            <!-- FormSubmit configuration -->
+            <input type="hidden" name="_subject" value="New message from nikhilunarkant.com">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://nikhilunarkant.com/thanks.html">
+            <!-- Honeypot: hidden from humans, catches spam bots -->
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+
             <div class="form-row">
               <div class="field">
                 <label for="first_name">First name *</label>
-                <input type="text" id="first_name" name="first_name" autocomplete="given-name" required>
+                <input type="text" id="first_name" name="First name" autocomplete="given-name" required>
               </div>
               <div class="field">
                 <label for="last_name">Last name *</label>
-                <input type="text" id="last_name" name="last_name" autocomplete="family-name" required>
+                <input type="text" id="last_name" name="Last name" autocomplete="family-name" required>
               </div>
             </div>
             <div class="field">
@@ -87,11 +98,11 @@
             </div>
             <div class="field">
               <label for="subject">Subject *</label>
-              <input type="text" id="subject" name="subject" required>
+              <input type="text" id="subject" name="Subject" required>
             </div>
             <div class="field">
               <label for="message">Comment or message *</label>
-              <textarea id="message" name="message" required></textarea>
+              <textarea id="message" name="Message" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
           </form>
