@@ -243,7 +243,7 @@ html[data-lang="en"] .lang-da { display: none !important; }
 .nav-open .nav-toggle span:nth-child(2) { opacity: 0; }
 .nav-open .nav-toggle span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .nav-toggle { display: block; margin-left: .6rem; }
   .site-header .lang-switch { margin-left: auto; }
   .site-nav {
