@@ -129,6 +129,40 @@ li { margin-bottom: .55em; }
 
 .btn-lg { font-size: 1.05rem; padding: .95em 2.3em; }
 
+/* ---------- Language toggle ---------- */
+
+/* Show only the active language; Danish is the default. */
+html[data-lang="da"] .lang-en,
+html[data-lang="en"] .lang-da { display: none !important; }
+
+.lang-switch {
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid rgba(255, 255, 255, .45);
+  border-radius: 999px;
+  overflow: hidden;
+  flex: none;
+}
+.lang-switch button {
+  font-family: var(--sans);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .4em .8em;
+  background: transparent;
+  color: rgba(255, 255, 255, .8);
+  border: 0;
+  cursor: pointer;
+  line-height: 1;
+  transition: background-color .2s ease, color .2s ease;
+}
+.lang-switch button:hover { color: #fff; }
+.lang-switch button[aria-pressed="true"] {
+  background: #fff;
+  color: var(--ink);
+}
+
 /* ---------- Header / navigation ---------- */
 
 .site-header {
@@ -185,6 +219,8 @@ li { margin-bottom: .55em; }
 
 .site-nav .btn { margin-left: .6rem; }
 
+.site-header .lang-switch { margin-left: 1.2rem; }
+
 /* Mobile nav */
 .nav-toggle {
   display: none;
@@ -208,7 +244,8 @@ li { margin-bottom: .55em; }
 .nav-open .nav-toggle span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
 @media (max-width: 900px) {
-  .nav-toggle { display: block; }
+  .nav-toggle { display: block; margin-left: .6rem; }
+  .site-header .lang-switch { margin-left: auto; }
   .site-nav {
     position: absolute;
     top: calc(100% + .4rem);
