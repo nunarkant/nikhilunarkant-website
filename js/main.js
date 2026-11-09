@@ -32,6 +32,16 @@
     revealEls.forEach(function (el) { el.classList.add("visible"); });
   }
 
+  /* Header: solid once the page scrolls, or always on pages without a hero */
+  var siteHeader = document.querySelector(".site-header");
+  function syncHeader() {
+    if (!siteHeader) { return; }
+    var solid = document.body.hasAttribute("data-solid-header") || window.scrollY > 60;
+    siteHeader.classList.toggle("is-solid", solid);
+  }
+  window.addEventListener("scroll", syncHeader, { passive: true });
+  syncHeader();
+
   /* Language toggle (Danish default, English optional).
      The language is set on <html data-lang> by an inline script in <head>
      (so there is no flash), persisted in localStorage, and reflected by the
