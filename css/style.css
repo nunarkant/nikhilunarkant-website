@@ -660,6 +660,53 @@ html[data-lang="en"] .lang-da { display: none !important; }
 .seminar-grid .reveal:nth-child(3) { transition-delay: .15s; }
 .seminar-grid .reveal:nth-child(4) { transition-delay: .2s; }
 
+/* ---------- Services (advisory engagements) ---------- */
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
+}
+@media (max-width: 820px) { .service-grid { grid-template-columns: 1fr; } }
+
+.service-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 2.2rem 2.1rem 2.3rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--steel);
+}
+.service-card__dur {
+  display: inline-flex;
+  align-items: center;
+  gap: .5em;
+  align-self: flex-start;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: var(--accent);
+  background: rgba(46, 111, 174, .09);
+  border-radius: 999px;
+  padding: .45em 1em;
+  margin-bottom: 1.2rem;
+}
+.service-card__dur svg { flex: none; }
+.service-card h3 { font-size: 1.4rem; margin-bottom: 1rem; }
+.service-card p { margin-bottom: 1.8rem; }
+.service-card .btn { margin-top: auto; align-self: flex-start; }
+
+.service-grid .reveal:nth-child(2) { transition-delay: .1s; }
+.service-grid .reveal:nth-child(3) { transition-delay: .15s; }
+.service-grid .reveal:nth-child(4) { transition-delay: .2s; }
+
 /* ---------- About: highlight stats & credentials ---------- */
 
 .stat-grid {
