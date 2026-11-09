@@ -660,6 +660,86 @@ html[data-lang="en"] .lang-da { display: none !important; }
 .seminar-grid .reveal:nth-child(3) { transition-delay: .15s; }
 .seminar-grid .reveal:nth-child(4) { transition-delay: .2s; }
 
+/* ---------- About: highlight stats & credentials ---------- */
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.4rem;
+}
+@media (max-width: 900px) { .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .stat-grid { grid-template-columns: 1fr; } }
+
+.stat {
+  position: relative;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.9rem 1.6rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.stat:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.stat__figure {
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  line-height: 1.12;
+  color: var(--accent);
+  margin-bottom: .55rem;
+  min-height: 2.3em;        /* reserve ~2 lines so captions align across a row */
+}
+.stat__text {
+  font-size: .96rem;
+  line-height: 1.5;
+  color: var(--text);
+  margin: 0;
+}
+
+.cred-wrap { margin-top: 3.4rem; }
+.cred-label {
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.4rem;
+}
+.cred-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 3rem;
+}
+@media (max-width: 700px) { .cred-list { grid-template-columns: 1fr; } }
+.cred-list li {
+  position: relative;
+  padding: 1rem 0 1rem 1.9em;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--ink);
+  border-top: 1px solid var(--line);
+}
+.cred-list li::before {
+  content: "";
+  position: absolute;
+  left: .2em;
+  top: 1.35em;
+  width: 6px;
+  height: 11px;
+  border: solid var(--steel-deep);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .9rem;
+  margin-top: 2rem;
+}
+
 /* ---------- Contact ---------- */
 
 .contact-grid {
