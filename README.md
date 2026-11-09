@@ -1,26 +1,38 @@
-# nikhilunarkant.com — statisk kodepakke
+# nikhilunarkant.com — statisk hjemmeside
 
-En komplet, selvstændig genskabelse af nikhilunarkant.com som rene HTML/CSS/JS-filer.
-Ingen WordPress, ingen build-værktøjer — mappen kan lægges direkte op på et hvilket
-som helst webhotel (fx Simply.com, Netlify, GitHub Pages).
+Hjemmesiden er rene HTML/CSS/JS-filer uden build-trin. Hver push til `main` udgives automatisk via GitHub Pages på nikhilunarkant.com.
 
 ## Struktur
 
 ```
 nikhilunarkant-website/
-├── index.html            Forside (Home)
-├── publications.html     Publications (bogen AI Leadership + nyhedsbrev)
-├── collaboration.html    Collaboration (de tre samarbejdsformer)
-├── about.html            About (Who Am I?)
-├── contact.html          Contact (kontaktinfo + formular)
-├── css/style.css         Al styling (farver, typografi, layout)
-├── js/main.js            Mobilmenu, scroll-animationer, formular-fallback
-└── assets/img/           Billeder (optimeret til WebP — ca. 0,45 MB mod før 4,7 MB)
+├── index.html          Forside
+├── ydelser.html        Seminarer og rådgivningsforløb (tidligere seminarer.html)
+├── seminarer.html      Redirect til ydelser.html (bevarer gamle links)
+├── publications.html   Udgivelser (AI Leadership)
+├── about.html          Om mig
+├── contact.html        Kontakt (formular via FormSubmit)
+├── thanks.html         Tak-side efter afsendt formular (noindex)
+├── robots.txt          Crawling-regler + sitemap-reference
+├── sitemap.xml         Sitemap for de indekserbare sider
+├── css/style.css       Al styling
+├── js/main.js          Mobilmenu, scroll-animationer, sprogskifter (DA/EN)
+└── assets/img/         Billeder (WebP)
 ```
 
-## Sådan ser du sitet lokalt
+## SEO
 
-Åbn `index.html` i en browser — eller kør en lille lokal server:
+- Hver side har `canonical`, `og:url`, `og:image` og Twitter-kort.
+- JSON-LD: `Person` og `WebSite` på forsiden, `Course` for de fire seminarer, `Service` for de fire rådgivningsforløb og `Book` på udgivelsessiden.
+- Sproget skiftes med DA/EN-knappen. Dansk er standard.
+
+Når du ændrer priser, varigheder eller tekster for seminarer og forløb, så opdatér også JSON-LD i `ydelser.html`, så søgemaskinerne får de rigtige tal.
+
+## Kontaktformularen
+
+Formularen sender via FormSubmit til modtageradressen i `action`-attributten i `contact.html`. Første besked kræver en engangs-bekræftelse fra e-mailen.
+
+## Lokal visning
 
 ```bash
 cd nikhilunarkant-website
@@ -28,25 +40,7 @@ python3 -m http.server 8000
 # åbn http://localhost:8000
 ```
 
-## Kontaktformularen
-
-Formularen på `contact.html` virker som udgangspunkt ved at åbne den besøgendes
-e-mailprogram med beskeden udfyldt (mailto-fallback til den adresse der står i
-formens `data-mailto`-attribut).
-
-Vil du have en rigtig serverformular (anbefales): Opret en gratis formular på
-fx [Formspree](https://formspree.io), indsæt endpointet i formens
-`action`-attribut og fjern `data-mailto`-attributten. Mere skal der ikke til.
-
-## Nyhedsbrevet
-
-Publications-siden indlejrer din eksisterende Beehiiv-tilmeldingsformular
-(iframe). Skifter du formular hos Beehiiv, skal iframe-URL'en i
-`publications.html` opdateres.
-
 ## Eksterne afhængigheder
 
-- Google Fonts: DM Serif Display + Poppins (indlæses fra fonts.googleapis.com)
-- Beehiiv-iframe på publications.html
-
-Alt andet (billeder, CSS, JS) ligger i pakken.
+- Google Fonts: DM Serif Display og Poppins
+- Beehiiv-iframe er fjernet fra udgivelsessiden
