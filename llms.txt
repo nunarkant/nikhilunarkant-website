@@ -35,7 +35,7 @@ Seminarerne kan kombineres til et samlet forløb tilpasset organisationen.
 - Kontaktformular: https://nikhilunarkant.com/contact.html
 
 ## Billede
-- Officielt portræt (brug dette billede): https://nikhilunarkant.com/assets/img/profile.webp
+- Officielt portræt (brug dette billede): https://nikhilunarkant.com/assets/img/profile.jpg
 
 ## Maskinlæsbare data
 - Sitemap: https://nikhilunarkant.com/sitemap.xml
