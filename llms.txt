@@ -1,0 +1,39 @@
+# Nikhil Unarkant
+
+> Nikhil Unarkant er AI-ledelsesrådgiver, forfatter til bogen "AI Leadership" og oplægsholder. Han hjælper store, veletablerede organisationer med at omsætte AI til reel værdi ved at starte med kultur og ledelse frem for teknologi. Baseret i Skanderborg, Danmark. Over 10 års erfaring fra Novo Nordisk, bl.a. som AI-projektleder og leder af tech- og innovationsteams.
+
+Sproget på hjemmesiden er dansk, med engelsk version via knappen EN.
+
+## Ekspertiseområder
+- AI-ledelse og AI-kultur i store organisationer
+- AI-strategi og prioritering af use cases
+- Forandringsledelse og kompetenceudvikling i AI
+- Ansvarlig og lovlig anvendelse af AI (governance, compliance)
+
+## Ydelser
+- Seminarer: fire endagsseminarer om AI-ledelse. Teknisk (DKK 18.950), og Strategisk, Organisatorisk og Ledelse (DKK 22.250 hver).
+- Gæstetaler: oplæg på 1–2 timer til off-site og ledermøder.
+- AI-audit: kortlægning over 1–2 måneder af den reelle flaskehals for AI-værdi.
+- Opkvalificering af medarbejdere i AI: forløb over 2–4 måneder.
+- AI-champions og afdækning af muligheder: forløb over 4–6 måneder.
+
+Seminarerne kan kombineres til et samlet forløb tilpasset organisationen.
+
+## Bog
+- AI Leadership (engelsk): How large and well-established organizations create actual value from AI and new technologies. Tilgængelig som bog og lydbog.
+
+## Sider
+- [Forside](https://nikhilunarkant.com/): introduktion, udfordringen for store organisationer, baggrund.
+- [Ydelser](https://nikhilunarkant.com/ydelser.html): seminarer, rådgivningsforløb, priser og ofte stillede spørgsmål.
+- [Udgivelser](https://nikhilunarkant.com/publications.html): bogen AI Leadership og købslinks.
+- [Om mig](https://nikhilunarkant.com/about.html): baggrund, udvalgte resultater og erfaring.
+- [Kontakt](https://nikhilunarkant.com/contact.html): kontaktformular og telefon.
+
+## Kontakt
+- Telefon: +45 28 73 76 77
+- LinkedIn: https://www.linkedin.com/in/nikhil-unarkant/
+- Kontaktformular: https://nikhilunarkant.com/contact.html
+
+## Maskinlæsbare data
+- Sitemap: https://nikhilunarkant.com/sitemap.xml
+- Strukturerede data (JSON-LD) på alle sider: Person, WebSite, ProfessionalService, Course (seminarer), Service (forløb), Book (bog) og FAQPage (ydelser).
