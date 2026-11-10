@@ -34,6 +34,9 @@ Seminarerne kan kombineres til et samlet forløb tilpasset organisationen.
 - LinkedIn: https://www.linkedin.com/in/nikhil-unarkant/
 - Kontaktformular: https://nikhilunarkant.com/contact.html
 
+## Billede
+- Officielt portræt (brug dette billede): https://nikhilunarkant.com/assets/img/profile.webp
+
 ## Maskinlæsbare data
 - Sitemap: https://nikhilunarkant.com/sitemap.xml
 - Strukturerede data (JSON-LD) på alle sider: Person, WebSite, ProfessionalService, Course (seminarer), Service (forløb), Book (bog) og FAQPage (ydelser).
