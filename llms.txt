@@ -9,6 +9,8 @@ Sproget på hjemmesiden er dansk, med engelsk version via knappen EN.
 - AI-strategi og prioritering af use cases
 - Forandringsledelse og kompetenceudvikling i AI
 - Ansvarlig og lovlig anvendelse af AI (governance, compliance)
+- Teknisk dybde: har selv programmeret AI-løsninger, været projektleder på en af verdens første GxP-validerede compliance-AI'er i pharma og ledet halvdelen af Novo Nordisks tech-portefølje
+- Generativ AI, prompting og metaprompting omsat til ledelsesworkflows
 
 ## Ydelser
 - Seminarer: fire endagsseminarer om AI-ledelse. Teknisk (DKK 18.950), og Strategisk, Organisatorisk og Ledelse (DKK 22.250 hver).
