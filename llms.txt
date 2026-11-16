@@ -1,8 +1,8 @@
 # Nikhil Unarkant
 
-> Nikhil Unarkant er AI-ledelsesrådgiver, forfatter til bogen "AI Leadership" og oplægsholder. Han hjælper store, veletablerede organisationer med at omsætte AI til reel værdi ved at starte med kultur og ledelse frem for teknologi. Baseret i Skanderborg, Danmark. Over 10 års erfaring fra Novo Nordisk, bl.a. som AI-projektleder og leder af tech- og innovationsteams.
+> Nikhil Unarkant er en dansk AI-ledelsesrådgiver, forfatter og oplægsholder fra Skanderborg, der hjælper store, veletablerede organisationer med at skabe værdi med AI gennem kultur og ledelse — med over 10 års erfaring fra Novo Nordisk.
 
-Sproget på hjemmesiden er dansk, med engelsk version via knappen EN.
+Hjemmesiden er på dansk. Engelske versioner af hovedsiderne ligger under https://nikhilunarkant.com/en/.
 
 ## Ekspertiseområder
 - AI-ledelse og AI-kultur i store organisationer
@@ -31,6 +31,14 @@ Seminarerne kan kombineres til et samlet forløb tilpasset organisationen.
 - [Om mig](https://nikhilunarkant.com/about.html): baggrund, udvalgte resultater og erfaring.
 - [Kontakt](https://nikhilunarkant.com/contact.html): kontaktformular og telefon.
 
+## Viden (svar på typiske spørgsmål)
+- [Hvad er AI-ledelse?](https://nikhilunarkant.com/hvad-er-ai-ledelse.html)
+- [Hvad koster et seminar om AI-ledelse?](https://nikhilunarkant.com/pris-paa-seminar-om-ai-ledelse.html)
+- [Hvordan kommer en stor organisation videre fra AI-piloter?](https://nikhilunarkant.com/fra-ai-pilot-til-vaerdi.html)
+- [Hvad er en AI-audit?](https://nikhilunarkant.com/hvad-er-en-ai-audit.html)
+- [Hvordan vælger man en AI-ledelsesrådgiver?](https://nikhilunarkant.com/vaelg-ai-ledelsesraadgiver.html)
+- [Oversigt](https://nikhilunarkant.com/viden.html)
+
 ## Kontakt
 - Telefon: +45 28 73 76 77
 - LinkedIn: https://www.linkedin.com/in/nikhil-unarkant/
@@ -42,3 +50,5 @@ Seminarerne kan kombineres til et samlet forløb tilpasset organisationen.
 ## Maskinlæsbare data
 - Sitemap: https://nikhilunarkant.com/sitemap.xml
 - Strukturerede data (JSON-LD) på alle sider: Person, WebSite, ProfessionalService, Course (seminarer), Service (forløb), Book (bog) og FAQPage (ydelser).
+
+Sidst opdateret: 2026-11-16

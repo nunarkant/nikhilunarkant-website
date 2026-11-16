@@ -1,8 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nikhilunarkant.com/</loc><lastmod>2026-11-10</lastmod><priority>1.0</priority></url>
-  <url><loc>https://nikhilunarkant.com/ydelser.html</loc><lastmod>2026-11-10</lastmod><priority>0.9</priority></url>
-  <url><loc>https://nikhilunarkant.com/publications.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
-  <url><loc>https://nikhilunarkant.com/about.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
-  <url><loc>https://nikhilunarkant.com/contact.html</loc><lastmod>2026-11-10</lastmod><priority>0.6</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nikhilunarkant.com/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/en/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/ydelser.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/ydelser.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/ydelser.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/ydelser.html"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/en/ydelser.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/ydelser.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/ydelser.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/ydelser.html"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/publications.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/publications.html"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/en/publications.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/publications.html"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/about.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/en/about.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/contact.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/en/contact.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://nikhilunarkant.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nikhilunarkant.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nikhilunarkant.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/viden.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/hvad-er-ai-ledelse.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/pris-paa-seminar-om-ai-ledelse.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/fra-ai-pilot-til-vaerdi.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/hvad-er-en-ai-audit.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nikhilunarkant.com/vaelg-ai-ledelsesraadgiver.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>

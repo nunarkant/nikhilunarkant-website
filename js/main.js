@@ -42,35 +42,8 @@
   window.addEventListener("scroll", syncHeader, { passive: true });
   syncHeader();
 
-  /* Language toggle (Danish default, English optional).
-     The language is set on <html data-lang> by an inline script in <head>
-     (so there is no flash), persisted in localStorage, and reflected by the
-     CSS rules that hide the inactive .lang-da / .lang-en elements. */
-  var langButtons = document.querySelectorAll("[data-set-lang]");
-  var docEl = document.documentElement;
-
-  function applyLang(lang) {
-    if (lang !== "en") { lang = "da"; }
-    docEl.setAttribute("data-lang", lang);
-    docEl.lang = lang;
-    try { localStorage.setItem("lang", lang); } catch (e) {}
-
-    langButtons.forEach(function (b) {
-      b.setAttribute("aria-pressed", b.getAttribute("data-set-lang") === lang ? "true" : "false");
-    });
-
-    /* Swap the document title if both languages are provided on <body>. */
-    var t = document.body.getAttribute("data-title-" + lang);
-    if (t) { document.title = t; }
-  }
-
-  applyLang(docEl.getAttribute("data-lang") || "da");
-
-  langButtons.forEach(function (b) {
-    b.addEventListener("click", function () {
-      applyLang(b.getAttribute("data-set-lang"));
-    });
-  });
+  /* Language: Danish pages live at the root and English pages under /en/,
+     linked with hreflang. The DA/EN switch is a pair of ordinary links. */
 
   /* The contact form posts directly to FormSubmit.co (see contact.html).
      No JavaScript is needed to send it — the browser submits the form and

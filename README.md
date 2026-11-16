@@ -6,19 +6,27 @@ Hjemmesiden er rene HTML/CSS/JS-filer uden build-trin. Hver push til `main` udgi
 
 ```
 nikhilunarkant-website/
-├── index.html          Forside
-├── ydelser.html        Seminarer og rådgivningsforløb (tidligere seminarer.html)
-├── seminarer.html      Redirect til ydelser.html (bevarer gamle links)
-├── publications.html   Udgivelser (AI Leadership)
-├── about.html          Om mig
-├── contact.html        Kontakt (formular via FormSubmit)
-├── thanks.html         Tak-side efter afsendt formular (noindex)
-├── robots.txt          Crawling-regler + sitemap-reference
-├── sitemap.xml         Sitemap for de indekserbare sider
-├── css/style.css       Al styling
-├── js/main.js          Mobilmenu, scroll-animationer, sprogskifter (DA/EN)
-└── assets/img/         Billeder (WebP)
+├── index.html, ydelser.html, publications.html, about.html, contact.html, thanks.html
+│                         Danske hovedsider (standardsproget)
+├── en/                   Engelske versioner af de samme seks sider
+├── viden.html            Oversigt over svarsiderne
+├── hvad-er-ai-ledelse.html, pris-paa-seminar-om-ai-ledelse.html,
+│   fra-ai-pilot-til-vaerdi.html, hvad-er-en-ai-audit.html,
+│   vaelg-ai-ledelsesraadgiver.html
+│                         Svarsider (kun dansk): ét spørgsmål pr. side, svaret øverst
+├── seminarer.html        Redirect til ydelser.html (bevarer gamle links)
+├── robots.txt, sitemap.xml, llms.txt
+├── css/style.css, js/main.js
+└── assets/img/           Billeder (WebP på siderne, JPEG til deling og AI)
 ```
+
+## Sprog
+
+Hver side findes som ren dansk side i roden og som ren engelsk side under `/en/`. De er forbundet med `hreflang`, og DA/EN-knappen er almindelige links. Når du ændrer tekst, skal den danske og den engelske side opdateres hver for sig.
+
+## Datoer
+
+Hver side viser "Opdateret [dato]" i footeren, og datoen står også i JSON-LD (`dateModified`) og `sitemap.xml` (`lastmod`). Ret datoen, når indholdet reelt ændres, og kun da.
 
 ## SEO
 
